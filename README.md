@@ -3,17 +3,10 @@
 
 ![obligatory screenshot](/images/skrienshod.png)
 
-Things that are working and their corresponding kexts:
-- Intel UHD 630 Graphics 
-- [WhateverGreen](https://github.com/acidanthera/WhateverGreen) (PLEASE 
-SEE NOTES BELOW)
-- Realtek ALC233 Audio -   
-[AppleALC](https://github.com/acidanthera/AppleALC), layout ID 18
-- Intel AC 3168 
-WiFi+BT - [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) + 
-[IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
-- Intel I219-V Ethernet - 
-[IntelMausi](https://github.com/acidanthera/IntelMausi)
+Things that are working and their corresponding kexts: - Intel UHD 630 Graphics - [WhateverGreen](https://github.com/acidanthera/WhateverGreen) (PLEASE SEE NOTES BELOW)
+- Realtek ALC233 Audio - [AppleALC](https://github.com/acidanthera/AppleALC), layout ID 18 
+- Intel AC 3168 WiFi+BT - [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) + [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) 
+- Intel I219-V Ethernet - [IntelMausi](https://github.com/acidanthera/IntelMausi)
 
 Things partially or not working:
 - HDMI audio
