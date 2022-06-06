@@ -1,6 +1,5 @@
 # Hackintosh ASRock DeskMini H470
-## macOS Monterey 12.4 - OpenCore 0.8.0 - Intel Core i3-10100 - Deutsche 
-Qualität
+## macOS Monterey 12.4 - OpenCore 0.8.0 - Intel Core i3-10100 - Deutsche Qualität
 
 ![obligatory screenshot](/images/skrienshod.png)
 
@@ -8,7 +7,7 @@ Things that are working and their corresponding kexts:
 - Intel UHD 630 Graphics 
 - [WhateverGreen](https://github.com/acidanthera/WhateverGreen) (PLEASE 
 SEE NOTES BELOW)
-- Realtek ALC233 Audio - 
+- Realtek ALC233 Audio -   
 [AppleALC](https://github.com/acidanthera/AppleALC), layout ID 18
 - Intel AC 3168 
 WiFi+BT - [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) + 
@@ -17,8 +16,8 @@ WiFi+BT - [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) +
 [IntelMausi](https://github.com/acidanthera/IntelMausi)
 
 Things partially or not working:
-HDMI audio
-AirDrop + Handoff (use a real BCM94360CS2 card)
+- HDMI audio
+- AirDrop + Handoff (use a real BCM94360CS2 card)
 
 SMBIOS is blanked on purpose, you need to provide your own, use 
 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) for that
